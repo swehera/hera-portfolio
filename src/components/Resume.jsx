@@ -51,7 +51,7 @@ const Resume = () => {
       </div>
 
       {/* resume work start here */}
-      <div className=" w-full  bg-red-300">
+      <div className=" w-full  ">
         <div className=" flex flex-col md:flex-row items-center justify-between gap-x-2 gap-y-2">
           <button
             onClick={Education}

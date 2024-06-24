@@ -39,7 +39,7 @@ const Header = () => {
         <div>
           <div
             onClick={() => setOpen(false)}
-            className=" min-h-screen w-full bg-black/45 z-50 absolute  top-[56px] left-0"
+            className=" min-h-screen w-full bg-black/75 z-50 absolute  top-[56px] left-0"
           >
             <div className=" flex flex-col items-center justify-center gap-y-3 mt-5">
               <Link href={"/"} className=" text-white uppercase font-semibold">
