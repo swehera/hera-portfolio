@@ -1,0 +1,12 @@
+.templates-gallery-showcase-img {
+  height: 200px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 0%;
+  transition: background 3s ease-in-out;
+}
+
+.templates-gallery-showcase-img:hover {
+  background-position-y: 100%;
+}
