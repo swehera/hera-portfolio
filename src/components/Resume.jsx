@@ -41,7 +41,7 @@ const Resume = () => {
   };
 
   return (
-    <div className="flex flex-col items-center gap-y-2 mt-5 mb-4 px-12">
+    <div className=" min-h-[100vh] flex flex-col items-center gap-y-2 mt-5 mb-4 px-12">
       {/* text info work */}
       <div className="flex flex-col items-center justify-center gap-y-2">
         <p className="uppercase text-[#632DFC] text-sm font-semibold">

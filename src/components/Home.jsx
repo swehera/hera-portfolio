@@ -9,7 +9,7 @@ const HomePage = () => {
     "Full stack developer",
   ];
   return (
-    <div className=" min-h-[80vh] flex items-center justify-center">
+    <div className=" h-[100vh] md:min-h-[80vh] flex items-center justify-center">
       <div className=" flex flex-col items-center gap-y-3 ">
         <FaCode className="animate-bounce animate-infinite animate-ease-in text-6xl text-[#949494]" />
         <h1 className=" font-semibold text-3xl text-[#4E4E4E]">
