@@ -1,6 +1,8 @@
 "use client";
 import { Typewriter } from "react-simple-typewriter";
 import { FaCode } from "react-icons/fa";
+import Image from "next/image";
+import { heraIcon } from "@/images";
 const HomePage = () => {
   const words = [
     "Mern stack developer",
@@ -9,9 +11,18 @@ const HomePage = () => {
     "Full stack developer",
   ];
   return (
-    <div className=" h-[100vh] md:min-h-[80vh] flex items-center justify-center">
+    <div className=" h-[100vh] md:min-h-[100vh] flex items-center justify-center">
       <div className=" flex flex-col items-center gap-y-3 ">
-        <FaCode className="animate-bounce animate-infinite animate-ease-in text-6xl text-[#949494]" />
+        {/* <FaCode className="animate-bounce animate-infinite animate-ease-in text-6xl text-[#949494]" /> */}
+        <div>
+          <Image
+            src={heraIcon}
+            alt="hera"
+            width={250}
+            height={250}
+            className="animate-bounce-slow"
+          />
+        </div>
         <h1 className=" font-semibold text-3xl text-[#4E4E4E]">
           Hey Buddy, I am 
           <span className=" text-[#632DFC]">&quot;Hira&quot;</span>

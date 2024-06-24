@@ -6,6 +6,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { RiMenu2Fill } from "react-icons/ri";
 import { useState } from "react";
 import Link from "next/link";
+import HireMe from "./HireMe";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -103,9 +104,10 @@ const Header = () => {
         </div>
 
         <div className=" flex items-center justify-center">
-          <button className=" text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl  focus:outline-none   font-medium rounded-lg text-sm px-5 py-1.5 text-center  uppercase">
+          {/* <button className=" text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl  focus:outline-none   font-medium rounded-lg text-sm px-5 py-1.5 text-center  uppercase">
             Hire Me
-          </button>
+          </button> */}
+          <HireMe />
         </div>
       </div>
     </div>

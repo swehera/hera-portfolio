@@ -85,7 +85,7 @@ const Sidebar = () => {
             <h2 className=" text-[17px] text-[#EAEAEA] font-semibold">
               Lutfor Rahman Hira
             </h2>
-            <p className="animate-pulse animate-infinite text-[#E74C3C] text-xs">
+            <p className=" text-[#E74C3C] text-xs font-bold">
               full stack web developer
             </p>
           </div>
