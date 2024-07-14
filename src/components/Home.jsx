@@ -24,10 +24,15 @@ const HomePage = () => {
             className="animate-bounce-slow"
           />
         </div>
-        <h1 className=" font-semibold text-3xl text-[#4E4E4E]">
-          Hey Buddy, I am 
-          <span className=" text-[#632DFC]">&quot;Hira&quot;</span>
-        </h1>
+        <div className=" w-full flex items-center justify-center px-3">
+          <h1 className=" font-semibold text-3xl text-[#4E4E4E] ">
+            Hi, I am {" "}
+            <span className=" text-[#632DFC] text-3xl font-semibold">Hira</span>
+          </h1>
+          {/* <h1 className=" text-[#632DFC] text-3xl font-semibold">
+            &quot;Hira&quot;
+          </h1> */}
+        </div>
         <h1 className=" text-[#4E4E4E] font-semibold">
           I&apos;m a{" "}
           <span>
