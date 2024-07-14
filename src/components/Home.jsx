@@ -3,6 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { FaCode } from "react-icons/fa";
 import Image from "next/image";
 import { heraIcon } from "@/images";
+import Link from "next/link";
 const HomePage = () => {
   const words = [
     "Mern stack developer",
@@ -11,10 +12,10 @@ const HomePage = () => {
     "Full stack developer",
   ];
   return (
-    <div className=" h-[100vh] md:min-h-[100vh] flex items-center justify-center">
-      <div className=" flex flex-col items-center gap-y-3 ">
+    <div className=" min-h-[100vh] flex flex-col items-center gap-y-2 mt-5 mb-4 px-12">
+      <div className=" flex flex-col items-center justify-center gap-y-2 ">
         {/* <FaCode className="animate-bounce animate-infinite animate-ease-in text-6xl text-[#949494]" /> */}
-        <div>
+        <div className=" mt-5">
           <Image
             src={heraIcon}
             alt="hera"
@@ -42,13 +43,24 @@ const HomePage = () => {
             />
           </span>
         </h1>
+        <div className=" w-full md:w-[70%] flex items-center justify-center">
+          <p className=" text-left text-sm text-gray-800 font-semibold">
+            I am always looking to improve my skills and stay up-to-date with
+            the latest best practices in web development. I am excited to
+            continue growing as a developer and making meaningful contributions
+            to projects and teams.
+          </p>
+        </div>
         <div className=" flex items-center gap-x-2">
           <button className=" uppercase text-sm font-semibold text-white bg-[#632DFC] px-3 py-1 rounded-md">
             Hire me
           </button>
-          <button className=" uppercase text-sm font-semibold text-[#632DFC] hover:text-white hover:bg-[#632DFC]  border border-[#632DFC]  px-3 py-1 rounded-md duration-200">
+          <Link
+            href={"/portfolio"}
+            className=" uppercase text-sm font-semibold text-[#632DFC] hover:text-white hover:bg-[#632DFC]  border border-[#632DFC]  px-3 py-1 rounded-md duration-200"
+          >
             projects
-          </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -74,7 +74,7 @@ const Sidebar = () => {
       <div className=" sticky top-3 z-50">
         {/* image and info section */}
         <div className=" flex flex-col items-center gap-y-2 mt-10 mb-5">
-          <div className=" w-20 h-20 rounded-full  ring-1 ring-purple-600 ">
+          <div className=" w-[78px] h-20 rounded-full  ring-1 ring-purple-600 ">
             <Image
               src={profileImage}
               alt="hera"
@@ -85,8 +85,8 @@ const Sidebar = () => {
             <h2 className=" text-[17px] text-[#EAEAEA] font-semibold">
               Lutfor Rahman Hira
             </h2>
-            <p className=" text-[#E74C3C] text-xs font-bold">
-              full stack web developer
+            <p className=" text-[#E74C3C] text-xs font-bold uppercase">
+              web developer
             </p>
           </div>
           <span className=" bg-black w-full py-[0.5px]" />
@@ -114,7 +114,7 @@ const Sidebar = () => {
                 : "hover:bg-[#632DFC]  duration-200"
             }  py-1 text-center uppercase text-sm rounded-md text-white`}
           >
-            portfolio
+            projects
           </Link>
           <Link
             href={"/resume"}

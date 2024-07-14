@@ -55,7 +55,7 @@ const Resume = () => {
         <div className=" flex flex-col md:flex-row items-center justify-between gap-x-2 gap-y-2">
           <button
             onClick={Education}
-            className={` w-full py-1.5 rounded-md bg-[#EAEAEA] ${
+            className={` w-full py-1.5 rounded-md bg-white ${
               education ? "text-[#632DFC] " : "text-[#4E4E4E] "
             } font-semibold shadow-md`}
           >
@@ -63,7 +63,7 @@ const Resume = () => {
           </button>
           <button
             onClick={Skills}
-            className={` w-full py-1.5 rounded-md bg-[#EAEAEA] ${
+            className={` w-full py-1.5 rounded-md bg-white ${
               skills ? "text-[#632DFC] " : "text-[#4E4E4E] "
             } font-semibold shadow-md`}
           >
@@ -71,7 +71,7 @@ const Resume = () => {
           </button>
           <button
             onClick={Experience}
-            className={` w-full py-1.5 rounded-md bg-[#EAEAEA] ${
+            className={` w-full py-1.5 rounded-md bg-white ${
               expreience ? "text-[#632DFC] " : "text-[#4E4E4E] "
             } font-semibold shadow-md`}
           >
@@ -79,7 +79,7 @@ const Resume = () => {
           </button>
           <button
             onClick={Certificate}
-            className={` w-full py-1.5 rounded-md bg-[#EAEAEA] ${
+            className={` w-full py-1.5 rounded-md bg-white ${
               certificates ? "text-[#632DFC] " : "text-[#4E4E4E] "
             } font-semibold shadow-md`}
           >
