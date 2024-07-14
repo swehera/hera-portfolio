@@ -2,7 +2,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import { FaCode } from "react-icons/fa";
 import Image from "next/image";
-import { heraIcon } from "@/images";
+import { heraIcon, myResume } from "@/images";
 import Link from "next/link";
 const HomePage = () => {
   const words = [
@@ -57,9 +57,11 @@ const HomePage = () => {
           </p>
         </div>
         <div className=" flex items-center gap-x-2">
-          <button className=" uppercase text-sm font-semibold text-white bg-[#632DFC] px-3 py-1 rounded-md">
-            Hire me
-          </button>
+          <a href={myResume} target="_blank">
+            <button className=" uppercase text-sm font-semibold text-white bg-[#632DFC] px-3 py-1 rounded-md">
+              Hire me
+            </button>
+          </a>
           <Link
             href={"/portfolio"}
             className=" uppercase text-sm font-semibold text-[#632DFC] hover:text-white hover:bg-[#632DFC]  border border-[#632DFC]  px-3 py-1 rounded-md duration-200"

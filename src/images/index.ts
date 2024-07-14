@@ -6,6 +6,7 @@ import freecodecamp from "./certificates/freecodecamp.png";
 import heraIcon from "./icons/heracode.png";
 import pharmacyManagementProject from "./portfolio-images/pharmacy-management-system.png";
 import contactImage from "./contact/contact.png";
+import myResume from "./resume/hera-resume.pdf";
 
 export {
   bgImage,
@@ -16,4 +17,5 @@ export {
   heraIcon,
   pharmacyManagementProject,
   contactImage,
+  myResume,
 };
