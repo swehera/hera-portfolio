@@ -18,6 +18,19 @@ const Portfolio = () => {
       view: "https://task-manager-hera.vercel.app/",
       code: "https://github.com/swehera/task-manager",
     },
+
+    {
+      title: "Beautiful Portfolio Design",
+      imgUrl: "https://i.ibb.co/tYSKGp5/hera-01-portfolio.png",
+      view: "https://hera-portfolio-01.vercel.app/",
+      code: "https://github.com/swehera/hera-portfolio01",
+    },
+    {
+      title: "E-Commerce Dashboard",
+      imgUrl: "https://i.ibb.co/27fzrLt/dashboard-design.png",
+      view: "https://e-dashboard-hera.vercel.app/",
+      code: "https://github.com/swehera/e-com-dashbord",
+    },
   ];
 
   return (
